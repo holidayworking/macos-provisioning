@@ -1,0 +1,87 @@
+---
+homebrew_taps:
+  - { tap: caskroom/cask }
+  - { tap: caskroom/versions }
+  - { tap: homebrew/versions }
+  - { tap: peco/peco }
+  - { tap: sanemat/font }
+
+homebrew_cask_packages:
+  - { name: 1password }
+  - { name: aerial }
+  - { name: alfred }
+  - { name: appcleaner }
+  - { name: atom }
+  - { name: bartender }
+  - { name: charles }
+  - { name: chrome-remote-desktop-host }
+  - { name: cyberduck }
+  - { name: disk-inventory-x }
+  - { name: docker }
+  - { name: dropbox }
+  - { name: firefox-ja }
+  - { name: flux }
+  - { name: github-desktop }
+  - { name: google-chrome }
+  - { name: gopro-studio }
+  - { name: hosts }
+  - { name: iterm2 }
+  - { name: java }
+  - { name: karabiner }
+  - { name: launchrocket }
+  - { name: licecap }
+  - { name: macid }
+  - { name: mi }
+  - { name: minecraft }
+  - { name: mro }
+  - { name: mysqlworkbench }
+  - { name: nosleep }
+  - { name: osxfuse }
+  - { name: parallels-desktop }
+  - { name: phoneclean }
+  - { name: postgres }
+  - { name: postico }
+  - { name: powerphotos }
+  - { name: rstudio-preview }
+  - { name: send-to-kindle }
+  - { name: sequel-pro }
+  - { name: sshfs }
+  - { name: vagrant }
+  - { name: virtualbox }
+  - { name: xquartz }
+
+homebrew_packages:
+  - { name: android-platform-tools }
+  - { name: awscli }
+  - { name: direnv }
+  - { name: fish }
+  - { name: git }
+  - { name: git-now }
+  - { name: gnuplot }
+  - { name: go }
+  - { name: graphviz }
+  - { name: gsl }
+  - { name: heroku-toolbelt }
+  - { name: hub }
+  - { name: imagemagick }
+  - { name: jq }
+  - { name: mercurial}
+  - { name: mycli }
+  - { name: mysql56 }
+  - { name: nkf }
+  - { name: nodebrew }
+  - { name: p7zip }
+  - { name: packer }
+  - { name: peco }
+  - { name: pyenv }
+  - { name: rbenv }
+  - { name: rbenv-binstubs }
+  - { name: rbenv-default-gems }
+  - { name: reattach-to-user-namespace }
+  - { name: redis }
+  - { name: ricty, install_options: powerline }
+  - { name: ruby-build }
+  - { name: ssh-copy-id }
+  - { name: terminal-notifier }
+  - { name: tmux }
+  - { name: wget }

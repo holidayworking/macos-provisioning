@@ -1,0 +1,8 @@
+---
+- name: Setup My macOS
+  hosts: localhost
+  connection: local
+  roles:
+    - { role: homebrew, tags: [homebrew] }
+    - { role: osx_defaults, tags: [osx_defaults] }
+    - { role: dotfiles, tags: [dotfiles] }

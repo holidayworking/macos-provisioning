@@ -1,0 +1,14 @@
+---
+- name: Install ghq
+  shell: |
+    go get github.com/motemen/ghq
+  environment:
+    GOPATH: "{{ ansible_user_dir }}"
+  args:
+    creates: "{{ ansible_user_dir }}/bin/ghq"
+
+- name: Checkout dotfiles
+  git:
+    repo: git@github.com:holidayworking/dotfiles.git
+    dest: "{{ ansible_user_dir }}/src/github.com/holidayworking/dotfiles"
+    accept_hostkey: yes

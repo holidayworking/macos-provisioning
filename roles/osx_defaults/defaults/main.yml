@@ -1,0 +1,169 @@
+---
+osx_defaults:
+  - domain: com.apple.dock
+    key: ResetLaunchPad
+    type: bool
+    value: true
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: magnification
+    type: bool
+    value: true
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: minimize-to-application
+    type: bool
+    value: true
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: mru-spaces
+    type: bool
+    value: false
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: expose-group-apps
+    type: bool
+    value: true
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: wvous-tl-corner
+    type: int
+    value: 2
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: wvous-tl-modifier
+    type: int
+    value: 0
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: wvous-tr-corner
+    type: int
+    value: 3
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: wvous-tr-modifier
+    type: int
+    value: 0
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: wvous-br-corner
+    type: int
+    value: 5
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: wvous-br-modifier
+    type: int
+    value: 0
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: wvous-bl-corner
+    type: int
+    value: 4
+    notify: Restart Dock
+
+  - domain: com.apple.dock
+    key: wvous-bl-modifier
+    type: int
+    value: 0
+    notify: Restart Dock
+
+  - domain: com.apple.finder
+    key: ShowExternalHardDrivesOnDesktop
+    type: bool
+    value: false
+    notify: Restart Finder
+
+  - domain: com.apple.finder
+    key: ShowHardDrivesOnDesktop
+    type: bool
+    value: false
+    notify: Restart Finder
+
+  - domain: com.apple.finder
+    key: ShowMountedServersOnDesktop
+    type: bool
+    value: false
+    notify: Restart Finder
+
+  - domain: com.apple.finder
+    key: ShowRemovableMediaOnDesktop
+    type: bool
+    value: false
+    notify: Restart Finder
+
+  - domain: com.apple.finder
+    key: NewWindowTarget
+    type: string
+    value: PfHm
+    notify: Restart Finder
+
+  - domain: com.apple.finder
+    key: NewWindowTargetPath
+    type: string
+    value: "file:///{{ ansible_user_dir }}/"
+    notify: Restart Finder
+
+  - domain: com.apple.finder
+    key: FXRemoveOldTrashItems
+    type: bool
+    value: true
+    notify: Restart Finder
+
+  - domain: com.apple.screensaver
+    key: askForPassword
+    type: int
+    value: 1
+    notify: Nothing
+
+  - domain: com.apple.screensaver
+    key: askForPasswordDelay
+    type: float
+    value: 0
+    notify: Nothing
+
+  - domain: com.apple.Safari
+    key: AlwaysRestoreSessionAtLaunch
+    type: bool
+    value: true
+    notify: Nothing
+
+  - domain: com.apple.Safari
+    key: AutoOpenSafeDownloads
+    type: bool
+    value: false
+    notify: Nothing
+
+  - domain: com.apple.Safari
+    key: AutoFillPasswords
+    type: bool
+    value: false
+    notify: Nothing
+
+  - domain: com.apple.Safari
+    key: IncludeDevelopMenu
+    type: bool
+    value: true
+    notify: Nothing
+
+  - domain: com.apple.menuextra.clock
+    key: DateFormat
+    type: string
+    value: M\u6708d\u65e5(EEE)  H:mm:ss
+    notify: Restart SystemUIServer
+
+  - domain: NSGlobalDomain
+    key: AppleActionOnDoubleClick
+    type: string
+    value: Minimize
+    notify: Restart Dock

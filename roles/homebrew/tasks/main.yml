@@ -1,0 +1,39 @@
+---
+- name: Install Homebrew
+  shell: |
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  args:
+    creates: /usr/local/bin/brew
+
+- name: Add Homebrew taps
+  homebrew_tap:
+    tap: "{{ item.tap }}"
+    state: present
+  with_items:
+    - "{{ homebrew_taps }}"
+
+- name: Update Homebrew
+  homebrew:
+    update_homebrew: yes
+
+- name: Install Homebrew Cask packages
+  homebrew_cask:
+    name: "{{ item.name }}"
+    state: present
+  with_items:
+    - "{{ homebrew_cask_packages }}"
+
+- name: Install Homebrew packages
+  homebrew:
+    name: "{{ item.name }}"
+    install_options: "{{ item.install_options | default(omit) }}"
+    state: "{{ item.state | default('latest') }}"
+  with_items:
+    - "{{ homebrew_packages }}"
+
+- name: Install Ricty fonts
+  shell: |
+    cp -f $(brew --cellar ricty)/*/share/fonts/Ricty*.ttf ~/Library/Fonts && fc-cache -vf
+  args:
+    creates: ~/Library/Fonts/Ricty-Bold.ttf
+  notify: Run fc-cache

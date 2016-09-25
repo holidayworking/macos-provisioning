@@ -1,0 +1,18 @@
+---
+- name: Restart Dock
+  shell: |
+    killall Dock
+
+- name: Restart Finder
+  shell: |
+    killall Finder
+
+- name: Restart SystemUIServer
+  shell: |
+    killall SystemUIServer
+
+- name: Run fc-cache
+  shell: fc-cache -vf
+
+- name: Nothing
+  shell: ":"
