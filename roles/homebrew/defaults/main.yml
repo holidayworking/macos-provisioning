@@ -33,7 +33,7 @@ homebrew_cask_packages:
   - { name: macid }
   - { name: mi }
   - { name: minecraft }
-  - { name: mro }
+  - { name: microsoft-r-open }
   - { name: mysqlworkbench }
   - { name: nosleep }
   - { name: osxfuse }
