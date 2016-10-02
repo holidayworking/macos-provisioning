@@ -36,6 +36,7 @@ homebrew_cask_packages:
   - { name: microsoft-r-open }
   - { name: mysqlworkbench }
   - { name: nosleep }
+  - { name: onyx }
   - { name: osxfuse }
   - { name: parallels-desktop }
   - { name: phoneclean }
