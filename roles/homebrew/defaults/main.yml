@@ -15,7 +15,9 @@ homebrew_cask_packages:
   - { name: bartender }
   - { name: charles }
   - { name: chrome-remote-desktop-host }
+  - { name: cmd-eikana }
   - { name: cyberduck }
+  - { name: dash }
   - { name: disk-inventory-x }
   - { name: docker }
   - { name: dropbox }
