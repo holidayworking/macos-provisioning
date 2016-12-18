@@ -2,6 +2,7 @@
 homebrew_taps:
   - { tap: caskroom/cask }
   - { tap: caskroom/versions }
+  - { tap: homebrew/fuse }
   - { tap: homebrew/versions }
   - { tap: peco/peco }
   - { tap: sanemat/font }
@@ -21,7 +22,7 @@ homebrew_cask_packages:
   - { name: disk-inventory-x }
   - { name: docker }
   - { name: dropbox }
-  - { name: firefox-ja }
+  - { name: firefox }
   - { name: flux }
   - { name: github-desktop }
   - { name: google-chrome }
@@ -33,8 +34,8 @@ homebrew_cask_packages:
   - { name: licecap }
   - { name: macid }
   - { name: mi }
-  - { name: minecraft }
   - { name: microsoft-r-open }
+  - { name: minecraft }
   - { name: mysqlworkbench }
   - { name: nosleep }
   - { name: onyx }
@@ -47,7 +48,6 @@ homebrew_cask_packages:
   - { name: rstudio-preview }
   - { name: send-to-kindle }
   - { name: sequel-pro }
-  - { name: sshfs }
   - { name: vagrant }
   - { name: virtualbox }
   - { name: xquartz }
@@ -85,6 +85,7 @@ homebrew_packages:
   - { name: ricty, install_options: powerline }
   - { name: ruby-build }
   - { name: ssh-copy-id }
+  - { name: sshfs }
   - { name: terminal-notifier }
   - { name: tmux }
   - { name: wget }
