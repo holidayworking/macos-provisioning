@@ -25,7 +25,6 @@ homebrew_cask_packages:
   - { name: flux }
   - { name: github-desktop }
   - { name: google-chrome }
-  - { name: gopro-studio }
   - { name: hosts }
   - { name: iterm2 }
   - { name: java }
