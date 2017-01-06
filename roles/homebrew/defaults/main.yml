@@ -26,7 +26,9 @@ homebrew_cask_packages:
   - { name: flux }
   - { name: github-desktop }
   - { name: google-chrome }
+  - { name: google-nik-collection }
   - { name: hosts }
+  - { name: intellij-idea-ce }
   - { name: iterm2 }
   - { name: java }
   - { name: karabiner }
