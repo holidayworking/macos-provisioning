@@ -3,7 +3,6 @@ homebrew_taps:
   - { tap: caskroom/cask }
   - { tap: caskroom/versions }
   - { tap: homebrew/fuse }
-  - { tap: homebrew/versions }
   - { tap: peco/peco }
   - { tap: sanemat/font }
 
