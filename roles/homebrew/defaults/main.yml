@@ -36,6 +36,8 @@ homebrew_cask_packages:
   - { name: osxfuse }
   - { name: parallels-desktop }
   - { name: rstudio-preview }
+  - { name: spotify }
+  - { name: steam }
   - { name: vagrant }
   - { name: virtualbox }
   - { name: xquartz }
