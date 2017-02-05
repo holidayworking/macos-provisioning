@@ -1,6 +1,7 @@
 ---
 homebrew_taps:
   - { tap: caskroom/cask }
+  - { tap: caskroom/drivers }
   - { tap: caskroom/versions }
   - { tap: homebrew/fuse }
   - { tap: peco/peco }
@@ -38,8 +39,10 @@ homebrew_cask_packages:
   - { name: rstudio-preview }
   - { name: spotify }
   - { name: steam }
+  - { name: touchswitcher }
   - { name: vagrant }
   - { name: virtualbox }
+  - { name: xbox360-controller-driver }
   - { name: xquartz }
 
 homebrew_packages:
