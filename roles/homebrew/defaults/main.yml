@@ -8,7 +8,6 @@ homebrew_taps:
   - { tap: sanemat/font }
 
 homebrew_cask_packages:
-  - { name: 1password }
   - { name: aerial }
   - { name: alfred }
   - { name: appcleaner }
