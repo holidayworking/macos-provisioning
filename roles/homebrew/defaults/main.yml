@@ -4,7 +4,6 @@ homebrew_taps:
   - { tap: caskroom/drivers }
   - { tap: caskroom/versions }
   - { tap: homebrew/fuse }
-  - { tap: peco/peco }
   - { tap: sanemat/font }
 
 homebrew_cask_packages:
