@@ -27,7 +27,6 @@ homebrew_cask_packages:
   - { name: java }
   - { name: karabiner }
   - { name: licecap }
-  - { name: macid }
   - { name: mi }
   - { name: microsoft-r-open }
   - { name: mysqlworkbench }
@@ -44,7 +43,6 @@ homebrew_cask_packages:
   - { name: xquartz }
 
 homebrew_packages:
-  - { name: android-platform-tools }
   - { name: awscli }
   - { name: direnv }
   - { name: fish }
