@@ -9,6 +9,7 @@ homebrew_taps:
 homebrew_cask_packages:
   - { name: aerial }
   - { name: alfred }
+  - { name: android-sdk }
   - { name: appcleaner }
   - { name: atom }
   - { name: bartender }
@@ -30,6 +31,7 @@ homebrew_cask_packages:
   - { name: mi }
   - { name: microsoft-r-open }
   - { name: mysqlworkbench }
+  - { name: near-lock }
   - { name: onyx }
   - { name: osxfuse }
   - { name: parallels-desktop }
