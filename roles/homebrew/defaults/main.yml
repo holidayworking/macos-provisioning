@@ -14,7 +14,6 @@ homebrew_cask_packages:
   - { name: atom }
   - { name: bartender }
   - { name: charles }
-  - { name: cmd-eikana }
   - { name: cyberduck }
   - { name: docker }
   - { name: dropbox }
@@ -26,7 +25,6 @@ homebrew_cask_packages:
   - { name: intellij-idea-ce }
   - { name: iterm2 }
   - { name: java }
-  - { name: karabiner }
   - { name: karabiner-elements }
   - { name: licecap }
   - { name: mi }
