@@ -27,6 +27,7 @@ homebrew_cask_packages:
   - { name: iterm2 }
   - { name: java }
   - { name: karabiner }
+  - { name: karabiner-elements }
   - { name: licecap }
   - { name: mi }
   - { name: microsoft-r-open }
