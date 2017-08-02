@@ -52,6 +52,7 @@ homebrew_packages:
   - { name: go }
   - { name: heroku-toolbelt }
   - { name: hub }
+  - { name: ghq }
   - { name: jmeter, install_options: with-plugins }
   - { name: jq }
   - { name: mercurial}
