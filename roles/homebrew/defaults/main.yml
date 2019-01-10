@@ -9,7 +9,6 @@ homebrew_taps:
 homebrew_cask_packages:
   - { name: aerial }
   - { name: alfred }
-  - { name: android-sdk }
   - { name: appcleaner }
   - { name: atom }
   - { name: bartender }
@@ -30,17 +29,14 @@ homebrew_cask_packages:
   - { name: mi }
   - { name: microsoft-r-open }
   - { name: mysqlworkbench }
-  - { name: near-lock }
   - { name: onyx }
   - { name: osxfuse }
   - { name: parallels-desktop }
   - { name: rstudio-preview }
-  - { name: spotify }
   - { name: steam }
   - { name: touchswitcher }
   - { name: vagrant }
   - { name: virtualbox }
-  - { name: xbox360-controller-driver }
   - { name: xquartz }
 
 homebrew_packages:
