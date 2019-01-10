@@ -1,5 +1,6 @@
 ---
 homebrew_taps:
+  - { tap: heroku/brew }
   - { tap: homebrew/cask-versions }
   - { tap: sanemat/font }
 
@@ -50,7 +51,7 @@ homebrew_packages:
   - { name: git }
   - { name: git-now }
   - { name: go }
-  - { name: heroku-toolbelt }
+  - { name: heroku }
   - { name: hub }
   - { name: ghq }
   - { name: jmeter, install_options: with-plugins }
