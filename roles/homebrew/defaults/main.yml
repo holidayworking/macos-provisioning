@@ -11,6 +11,7 @@ homebrew_cask_packages:
   - { name: alfred }
   - { name: appcleaner }
   - { name: atom }
+  - { name: authy }
   - { name: bartender }
   - { name: charles }
   - { name: cyberduck }
@@ -19,12 +20,17 @@ homebrew_cask_packages:
   - { name: firefox }
   - { name: flux }
   - { name: google-chrome }
+  - { name: google-cloud-sdk }
   - { name: google-nik-collection }
   - { name: hosts }
+  - { name: inkdrop }
   - { name: intellij-idea-ce }
   - { name: iterm2 }
+  - { name: jasper }
   - { name: java }
   - { name: karabiner-elements }
+  - { name: kindle }
+  - { name: kitematic }
   - { name: licecap }
   - { name: mi }
   - { name: microsoft-r-open }
@@ -33,6 +39,7 @@ homebrew_cask_packages:
   - { name: osxfuse }
   - { name: parallels-desktop }
   - { name: rstudio-preview }
+  - { name: sonos }
   - { name: steam }
   - { name: touchswitcher }
   - { name: vagrant }
