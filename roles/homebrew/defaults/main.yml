@@ -2,6 +2,7 @@
 homebrew_taps:
   - { tap: heroku/brew }
   - { tap: homebrew/cask-versions }
+  - { tap: mackerelio/mackerel-agent }
   - { tap: sanemat/font }
 
 homebrew_cask_packages:
@@ -56,8 +57,11 @@ homebrew_packages:
   - { name: ghq }
   - { name: jmeter, install_options: with-plugins }
   - { name: jq }
+  - { name: mackerel-agent }
   - { name: mercurial}
+  - { name: mkr }
   - { name: nodebrew }
+  - { name: nodenv }
   - { name: p7zip }
   - { name: packer }
   - { name: peco }
@@ -72,3 +76,4 @@ homebrew_packages:
   - { name: terminal-notifier }
   - { name: tmux }
   - { name: wget }
+  - { name: yarn }
