@@ -49,12 +49,12 @@ homebrew_packages:
   - { name: awscli }
   - { name: direnv }
   - { name: fish }
+  - { name: ghq }
   - { name: git }
   - { name: git-now }
   - { name: go }
   - { name: heroku }
   - { name: hub }
-  - { name: ghq }
   - { name: jmeter, install_options: with-plugins }
   - { name: jq }
   - { name: mackerel-agent }
